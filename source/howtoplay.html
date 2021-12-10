@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blackjack Online</title>
+    <link rel="icon" href="images/blackjack.png">
+    <link rel="stylesheet"  type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+    .box{ 
+        width:700px; 
+        height: 66%; 
+    } 
+</style>
+<body>
+    
+    <div id="particles-js">
+        <div class="box">   
+            <p> Per iniziare una partita premere il tasto "Dai le carte". <br>
+                Le carte verranno distribuite sul tavolo.<br><br>
+
+                Se il banco ha immediatamente come combinazione di carte 21 <br>
+                La partita finisce immediatamente dato che il banco ha vinto.<br><br>
+
+                Se cio non accadesse, allora l'utente potra' chiedere una nuova carta <br>
+                premendo il pulsante "carta" di colore verde. Una nuova carta apparira'<br>
+                nella parte destinata all'utente.<br><br>
+
+                In caso, l'utente potra' chidere un numero illimitato di carte purche non superi il 21.<br>
+                Se cio' dovesse accadere, la partita finirebbe e la vittoria andrebbe al banco.<br><br>
+
+                Se all'utente bastasse la combinazione di carte che ha in quel momento, dovra' premere<br>
+                il pulsante "fermati" in modo tale da far continuare il gioco.<br><br>
+
+                Gestione assi: nel momento in cui all'utente uscisse un asso, il valore dello score box verrebbe automaticamente <br>
+                aumentato di 1, ma potrebbe decidere se mantenerlo<br> come 1 (e quindi il valore dello score box rimarrebbe invariato) <br>
+                o trasformarlo in 11, dove il valore dello score box verrebbe aumentato di 10 e non di 11 per via dell'1 messo automaticamente all'inizio. <br>
+
+                A questo punto, il banco scegliera' le sue carte. Dovra' continuare a chiedeere carte <br>
+                finche la sua combinazione sara' inferiore 16. Dopo di che decidera se e' il caso di andare avanti <br>
+                o di fermarsi. Appena si fermera', se non avra' gia sballato, verra' fatto il conteggio dei punti <br>
+                e chi avra' il punteggio maggiore vincera'.<br><br>
+
+                Importante! In questa versione, chi per primo fara' 21 vincera'.
+            </p>
+            <a href="home.html"><input type="submit" value="torna alla home" name="btn_one" id="btn_one" class="choice"> </a>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/particles.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    
+</body>
+</html>

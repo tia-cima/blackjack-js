@@ -1,0 +1,27 @@
+.box-moving { 
+    width:220px;
+    height:21px;
+    background:rgb(0, 36, 8);
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    padding:10px;
+    float: inline-start;
+    margin-left: auto;
+    margin: auto;
+    -webkit-border-radius:5px;
+    -o-transition-property:width,height,-o-transform,background,font-size,opacity;
+    -o-transition-duration:1s,1s,1s,1s,1s,1s;
+    -moz-transition-property:width,height,-o-transform,background,font-size,opacity;
+    -moz-transition-duration:1s,1s,1s,1s,1s,1s;
+    transition-property:width,height,transform,background,font-size,opacity;
+    transition-duration:1s,1s,1s,1s,1s,1s;
+    border-radius:10px;
+}
+.box-moving:hover{
+    opacity:1;
+    background: rgb(6, 77, 0);
+    width:250px;
+    height:30px;
+    font-size:25px;
+    color: white;
+}

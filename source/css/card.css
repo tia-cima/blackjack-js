@@ -1,0 +1,50 @@
+.opponent_box{
+    margin-top: 20px;
+    width:1000px; 
+    height:45%; 
+}
+
+.user_box{
+    margin-top: 130px;
+    width:1000px; 
+    height:18%; 
+}
+
+.card_container{
+    display: inline-block;
+    width: 5.9em;
+    height: 8.6em;
+    border: 1px solid #666;
+    border-radius: .3em;
+}
+
+.choice_box{
+    margin-left: 300px;
+    margin-top:50px;
+    width:1000px; 
+    height:15%;
+}
+
+.choice{
+    width: 200px;
+    height: 50px;
+    float:left;
+    transition: 250ms background ease-in;
+    border-radius: 15px;
+}
+
+.score{
+    width: 6.6em;
+    height: 4.9em;
+    border: 1px solid #666;
+    background-color: #242424;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    border-radius: .3em;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
